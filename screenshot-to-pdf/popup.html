@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screenshot to PDF</title>
+  <style>
+    body { width: 200px; height: 200px; }
+    button { width: 100%; height: 50px; margin-top: 5px; }
+  </style>
+</head>
+<body>
+  <button id="captureButton">Capture Screenshot</button>
+  <button id="generatePDFButton" style="display:none;">Generate PDF</button>
+  <p id="counter">Screenshots captured: 0</p>
+  <a id="downloadLink" style="display:none;">Download PDF</a>
+  <script src="libs/jspdf.min.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
